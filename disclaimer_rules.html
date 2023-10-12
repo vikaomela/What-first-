@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Disclaimer</title>
+        <meta property="og:title" content="Disclaimer" />
+        <meta property="og:image" content="logotip.svg"/>
+        
+        <meta property="og:description" content="Disclaimer">
+        <meta name="description" content="Disclaimer">
+        <link rel="stylesheet" href="dir/style/boot.css">
+        <link rel="stylesheet" href="dir/style/boot.min.css.map">
+        <link rel="stylesheet" href="dir/style/fancy.css">
+        <link rel="stylesheet" href="dir/style/button.css">
+        <link rel="stylesheet" href="dir/style/icon.css">
+        <link rel="stylesheet" href="dir/style/sli.css">
+        <link rel="stylesheet" href="dir/style/sli-theme.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       
+
+        
+
+        <link rel="shortcut icon" href="logotip.svg" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <script src="dir/script/jqueryv36.min.js"></script>
+        <script src="dir/script/getdate.js"></script>
+
+        <style>
+            li{
+                list-style: none;
+            }
+            body{
+                font-family: 'Lexend', sans-serif !important;
+                font-size: 1em;
+                margin: 0;
+                padding: 0;
+                direction: ltr;
+                box-sizing: border-box;
+            }
+
+            .wrapFirst{
+                background-image: linear-gradient(to top, #3a0651, #381660, #32236e, #282f7c, #143a8a);
+                min-height: 575px;
+            }
+            .bgbox{
+                width: 100%;
+                min-height: 575px;
+                background: url(bg/0_opacity.png);
+                background-position: center;
+                background-size: cover;
+                color: #ffffff;
+            }
+            .bgbox2{
+                width: 100%;
+                background: url(bg/1_opacity.png);
+                background-position: center;
+                background-size: cover;
+                color: #ffffff;
+            }
+            .bgbox3{
+                width: 100%;
+                background: url(bg/2_opacity.png);
+                background-position: center;
+                background-size: cover;
+                color: #ffffff;
+            }
+            .wrapFirst--logo{
+                display: flex;
+                align-items: center;
+                gap: 7px;
+            }
+            .wrapFirst--logo img{
+                width: 55px;
+            }
+            .wrapFirst--logo h2{
+                font-size: 23px;
+                font-weight: bold;
+                margin: 0px;
+
+            }
+            .form-forma {
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+            }
+            
+            .input-v36435334{
+                display: block;
+                width: 100%;
+                padding: 0.375rem 0.75rem;
+                font-size: 1rem;
+                font-weight: 400;
+                line-height: 1.5;
+                color: #212529;
+                background-color: #fff;
+                background-clip: padding-box;
+                border: 1px solid #ced4da;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
+                border-radius: 0.25rem;
+                transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+            }
+            .textarea-v36435334{
+                width: 100%;
+                border: 1px solid #ced4da;
+                border-radius: 0.25rem;
+                padding: 0.375rem 0.75rem;
+            }
+            .nav__container{
+                padding-top: 41px;
+                padding-bottom: 55px;
+            }
+            .navbar--box{
+                padding: 0;
+                margin: 0;
+                display: flex;
+                align-items: center;
+                gap: 15px;
+                justify-content: space-between;
+            }
+            .navbar--box li{
+                list-style: none;
+                font-weight: bold;
+                text-transform: inherit;
+                font-size: 16px;
+                line-height: calc(16px - 1px);
+            }
+            .navbar--box a{
+                text-decoration: none;
+                color: inherit;
+                opacity: 0.9;
+            }
+            .navbar--box a:hover{
+                opacity: 0.7;
+            }
+            .header--block{
+                padding-top: 67px;
+                padding-bottom: 55px;
+            }
+            .header--block h3{
+                font-size: 31px;
+            }
+            .header--block img{
+                height: 356px;
+                width: 100%;
+                object-fit: cover;
+                border: 7px solid #00C9B7;
+                border-radius: 15px;
+            }
+            .header--block .row{
+                align-items: center;
+                position: relative;
+            }
+            .head-button{
+                padding: 22px;
+                text-decoration: none;
+                max-width: 500px;
+                width: 100%;
+                margin: 22px auto;
+            }
+            .head-button:hover{
+                color: inherit;
+            }
+            .flexBlock, .main--box{
+                display: flex;
+                flex-direction: column;
+            }
+            .bnw{
+                background: #143A8A;
+                color: #ffffff;
+            }
+            .paddFirst{
+                padding-top: 67px;
+                padding-bottom: 67px;
+            }
+            .margFirst{
+                margin-top: 67px;
+                margin-bottom: 67px;
+            }
+            .comm--box{
+                background: #00C9B7;
+            }
+           
+            .wrapper__review--block{
+      display: flex;
+      flex-direction: column;
+      gap: 38px;
+  }
+  .wrapper__review--item{
+      display: flex;
+      gap: 15px;
+  }
+  .wrapper__review--item p{
+      margin-bottom: 0px;
+  }
+  .wrapper__review--item img{
+      border-radius: 0%;
+  }
+  .wrapper__review--item span{
+      font-size: 16px;
+      opacity: 0.4;
+      margin-top: 7px;
+      display: block;
+  }
+  .review--item__ibox img{
+    width: 66;
+  }
+  .wrapper__review--item:last-child{
+      display: flex;
+  }
+  :root {
+      --star-size: 32px;
+      --star-color: rgb(235, 235, 235);
+      --star-background: #257A3E;
+  }
+  .Stars {
+      --percent: calc(var(--rating) / 5 * 100%);
+      display: inline-block;
+      font-size: var(--star-size);
+      font-family: Times;
+      line-height: 1;
+      margin: 7px 0px;
+  }
+  .Stars::before {
+      content: '✶✶✶✶✶';
+      letter-spacing: 3px;
+      background: linear-gradient(90deg, var(--star-background) var(--percent), var(--star-color) var(--percent));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+
+            .benef-wrap{
+      display: flex;
+      flex-direction: column;
+      gap: 22px;
+  }
+  .benef-wrap--item{
+      display: flex;
+      gap: 22px;
+      align-items: center;
+      background: rgba(255,255,255,0.5); color: #222;
+      padding: 22px;
+      border-radius: 15px;
+      border-top: 2px solid #851359;
+      border-bottom: 2px solid #851359;
+      box-shadow: 0px 0px 5px #393838;
+  }
+  .benef-wrap--item__number{
+      font-size: 47px;
+      width: calc(47px + 10px);
+      flex-shrink: 0;
+      opacity: 0.7;
+  }
+  .benef-wrap--item__text{
+      font-size: 22px;
+  }
+
+            .galleryGrid-block {
+      display: grid;
+      grid-template-columns: repeat(8, 1fr);
+      grid-template-rows: repeat(6, 5vw);
+      grid-gap: 1.5rem;
+      width: 100%;
+    }
+    .galleryGrid__picture {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      border-radius: 15px;
+    }
+    .galleryGrid-list--1 {
+      grid-column-start: 1;
+      grid-column-end: 5;
+      grid-row-start: 1;
+      grid-row-end: 4;
+    }
+    .galleryGrid-list--2 {
+      grid-column-start: 5;
+      grid-column-end: 7;
+      grid-row-start: 1;
+      grid-row-end: 7;
+
+    }
+    .galleryGrid-list--3 {
+      grid-column-start: 7;
+      grid-column-end: 9;
+      grid-row-start: 1;
+      grid-row-end: 7;
+    }
+    .galleryGrid-list--4 {
+      grid-column-start: 1;
+      grid-column-end: 5;
+      grid-row-start: 4;
+      grid-row-end: 7;
+    }
+
+            .mainPic--box img{
+                max-width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            figure{
+                margin: 0;
+            }
+            .partners--box{
+
+            }
+            .partners--box h3{
+                font-size: 31px;
+                font-weight: 600;
+                margin-bottom: 41px;
+                text-align: start;
+            }
+
+            .partnersBlock--item{
+                margin: 0px 25px;
+            }
+            .partnersBlock--item img{
+                max-width: 162px;
+                width: 100%;
+                height: 100px;
+                object-fit: contain;
+                margin: 0 auto;
+            }
+            .prc--box{
+                font-size: 31px;
+                margin-bottom: 0;
+                font-weight: 600;
+                color: #00C9B7;
+            }
+            .benef-wrap{
+      display: flex;
+      flex-direction: column;
+      gap: 22px;
+  }
+  .benef-wrap--item{
+      display: flex;
+      gap: 22px;
+      align-items: center;
+      background: rgba(255,255,255,0.5); color: #222;
+      padding: 22px;
+      border-radius: 15px;
+      border-top: 2px solid #851359;
+      border-bottom: 2px solid #851359;
+      box-shadow: 0px 0px 5px #393838;
+  }
+  .benef-wrap--item__number{
+      font-size: 47px;
+      width: calc(47px + 10px);
+      flex-shrink: 0;
+      opacity: 0.7;
+  }
+  .benef-wrap--item__text{
+      font-size: 22px;
+  }
+            .formhere{
+                display: flex;
+                gap: 22px;
+            }
+            .formhere form > div{
+                margin: 22px 0px;
+            }
+            .formhere button{
+                padding: 15px;
+                width: 100%;
+            }
+            .slick-dots li.slick-active button:before, .slick-dots li button:before{
+                color: #ffffff;
+            }
+            .callout--box .row{
+                flex-direction: row;
+            }
+            .mntbn{
+                text-decoration: none;
+                width: 100%;
+                max-width: 600px;
+                margin: 38px auto 0px auto;
+                padding: 22px;
+                color: inherit;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .mntbn:hover{
+                color: inherit;
+            }
+            .contact--box .row{
+                flex-direction: row;
+            }
+            .contacting{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                gap: 22px;
+                font-weight: 600;
+            }
+            .contacting__item{
+                display: flex;
+                align-items: center;
+                gap: 7px;
+            }
+            .prbvb{
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                align-items: center;
+            }
+            .prbvb a{
+                color: inherit;
+            }
+            .prbvb a:hover{
+                text-decoration: none;
+            }
+            .contact--box form{
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+            }
+            .contact--box form > div{
+                display: flex;
+                gap: 7px;
+            }
+            .contact--box h4{
+                margin-bottom: 15px;
+            }
+            .contact--box form button{
+                padding: 7px;
+                width: 100%;
+            }
+            .contact--box form a{
+                color: inherit;
+                opacity: 0.8;
+            }
+            
+            .review--item__ibox img {
+                width: 85px !important;
+            }
+
+            #cookie-IJcy{
+                display: none;
+                justify-content: space-between;
+                align-items: center;
+                position: fixed;
+                bottom: 22px;
+                left: 50%;
+                width: 1089px;
+                max-width: 90%;
+                transform: translateX(-50%);
+                padding: 22px;
+                background-color:  #2F2519;
+                border-radius: 15px;
+                box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.4);
+                gap: 22px;
+                z-index: 999999;
+            }
+            #cookie-IJcy button{
+                max-width: 200px;
+            }
+
+            #cookie-IJcy p{
+                margin: 0;
+                font-size: 16px;
+                color: #fff;
+            }
+
+
+            @media (min-width: 576px){
+                #cookie-IJcy.show{
+                    display: flex;
+                }
+                .cookie_accept{
+                    margin: 0 0 0 25px;
+                }
+            }
+
+            @media (max-width: 575px){
+                #cookie-IJcy.show{
+                    display: flex;
+                    flex-direction: column;
+                }
+                .cookie_accept{
+                    margin: 10px 0 0 0;
+                }
+                button{
+                    width: 100%;
+                }
+            }
+            .partnersBlock{
+                direction: ltr;
+            }
+        </style>
+        <link rel="stylesheet" href="dir/style/query.css">
+        
+        </head>
+
+        <body class="wD18lK_4">
+            <div class="wrapFirst">
+                <div class="bgbox">
+                    <div class="container nav__container wD18lK">
+                        <div class="row" style="align-items: center;">
+                            <div class="col-4">
+                                <div class="wrapFirst--logo">
+                                    <img src="logotip.svg" alt="">
+                                    <h2>NewHouse Games Pc</h2>
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <ul class="navbar--box">
+                                    <li><a href="./#ab">About us</a></li>
+                                    <li><a href="./#bf">Our advantages:</a></li>
+                                    <li><a href="./#rw">Comments</a></li>
+                                    <li><a href="./#ct">Contacts</a></li> 
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container header--block">
+                        <div class="row flex-column-reverse">
+                            <div class="col">
+                                <h3 class="fw-normal">Hello world! We are very glad that you decided to visit our website. Get ready to explore the fantastic array of offers we've created to improve your life. </h3>
+                                <a href="./#ab" class="bt-9 head-button">About us</a>
+                            </div>
+                            <div class="col">
+                                <img src="bg/0_bg.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+<div class="container" style="padding: 115px 0px;">
+    <div class="content-block">
+        <h2 class="stilTitl">Disclaimer</h2>
+        <p>If you require any more information or have any questions about our site's disclaimer, please feel free to contact us by email at support_secret@mail.com.</p>
+
+<p>All the information on this website - <span class="domaintextname-YNiAnbX"></span> - is published in good faith and for general information purpose only. <span class="domaintextname-YNiAnbX"></span> does not make any warranties about the completeness, reliability and accuracy of this information. Any action you take upon the information you find on this website, is strictly at your own risk. <span class="domaintextname-YNiAnbX"></span> will not be liable for any losses and/or damages in connection with the use of our website.</p>
+
+<p>From our website, you can visit other websites by following hyperlinks to such external sites. While we strive to provide only quality links to useful and ethical websites, we have no control over the content and nature of these sites. These links to other websites do not imply a recommendation for all the content found on these sites. Site owners and content may change without notice and may occur before we have the opportunity to remove a link which may have gone 'bad'.</p>
+
+<p>Please be also aware that when you leave our website, other sites may have different privacy policies and terms which are beyond our control. Please be sure to check the Privacy Policies of these sites as well as their "Terms of Service" before engaging in any business or uploading any information.</p>
+
+<h2>Consent</h2>
+
+<p>By using our website, you hereby consent to our disclaimer and agree to its terms.</p>
+
+<h2>Update</h2>
+
+<p>Should we update, amend or make any changes to this document, those changes will be prominently posted here.</p>
+
+<script>var domainElements = document.getElementsByClassName("domaintextname-YNiAnbX");
+    var hostname = window.location.hostname;
+    for (var i = 0; i < domainElements.length; i++) {domainElements[i].innerHTML = hostname;}
+</script>
+    </div>
+</div>
+
+
+ 
+            <div class="contact--box paddFirst bnw" id="ct">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="contacting NDHg9jC">
+                                <div class="contacting__item">
+                                    <i class="bi bi-telephone-outbound"></i>
+                                    <div>+44 1246 345555</div>
+                                </div>
+                                <div class="contacting__item">
+                                    <i class="bi bi-geo-alt"></i>
+                                    <div> 9 Culley Ct, Bakewell Rd, Orton Southgate, Peterborough PE2 6XD, United Kingdom</div>
+                                </div>
+                                <div class="contacting__item">
+                                    <i class="bi bi-mailbox2"></i>
+                                    <div>support_secret@mail.com</div>
+                                </div>
+                                <div class="prbvb" style="margin-top: 20px;">
+                                    <div><a href="privacy_rules.html" target="_blank">Privacy policy</a></div>
+                                    <div><a href="term_rules.html" target="_blank">Terms & Conditions</a></div>
+                                    <div><a href="disclaimer_rules.html" target="_blank">Disclaimer</a></div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        <span id="randomColor" class="#ffffff"></span>
+        <span id="randomShadow" class="6px"></span>
+
+        
+
+        <script type="text/javascript" src="dir/script/boot.min.js"></script>
+        <script type="text/javascript" src="dir/script/fancy.js"></script>
+        <script type="text/javascript" src="dir/script/sli.min.js"></script>
+        <script type="text/javascript" src="dir/script/main.js"></script>
+
+
+       
+        <script>
+            let count = 6;
+
+            $('.partnersBlock').slick({
+                dots: true,
+                infinite: false,
+                speed: 300,
+                slidesToShow: count,
+                arrows: false,
+                slidesToScroll: 1,
+                responsive: [
+                    {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    }
+                    },
+                    {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                    },
+                    {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                    }
+                    
+                ]
+                });
+        </script>
+
+            
+
+</body>
+</html>
